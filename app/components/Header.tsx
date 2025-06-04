@@ -47,7 +47,7 @@ export default function StickyHeader() {
           }`}>
           {/* Logo */}
           <div
-            className={`flex items-center gap-2 text-lg font-semibold ${
+            className={`flex flex-col items-center  text-lg font-semibold ${
               isSticky ? "text-[#0633ec]" : "text-white"
             }`}>
             <img
