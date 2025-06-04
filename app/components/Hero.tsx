@@ -5,7 +5,7 @@ import AvatarShowcase from "./AvatarShowcase";
 
 const Hero = () => {
   return (
-    <section className="bg-blue-600 text-white py-20 relative overflow-hidden">
+    <div className="bg-[rgb(8,52,217)] text-white py-20 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center z-10 relative">
         {/* Text Content */}
         <div>
@@ -51,7 +51,7 @@ const Hero = () => {
           <AvatarShowcase />
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
